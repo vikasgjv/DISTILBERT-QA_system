@@ -18,7 +18,6 @@ model.eval()
 print("Model Loaded Successfully!")
 
 
-
 def qa_model(question, context):
     """Run QA inference and return answer with confidence score."""
     inputs = tokenizer(
